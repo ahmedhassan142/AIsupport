@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
+const GROQ_API_KEY = process.env.GROQ_API_KEY || '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';
 
 export const LlamaModels = {
   LLAMA_3_70B: 'llama3-70b-8192',
